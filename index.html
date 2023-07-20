@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de destino (Landpage)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Landpage</h1>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Descubre nuestro producto increíble</h2>
+            <p>¡Obtén resultados asombrosos con nuestro producto innovador!</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <h2>Características destacadas</h2>
+        <ul>
+            <li>Característica 1</li>
+            <li>Característica 2</li>
+            <li>Característica 3</li>
+            <li>Característica 4</li>
+        </ul>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios de nuestros clientes</h2>
+        <div class="testimonial">
+            <p>"Increíble producto. ¡Cambió mi vida por completo!"</p>
+            <p>- Cliente satisfecho</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>
