@@ -1,0 +1,149 @@
+body {
+    background-color: #181818;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff00ff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 3px 3px #ff00ff;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff00ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #660066;
+}
+
+#caracteristicas {
+    background-color: #660066;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#caracteristicas h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px #ff00ff;
+}
+
+#caracteristicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#caracteristicas li {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#testimonios {
+    background-color: #ff00ff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+#contacto {
+    background-color: #181818;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px #ff00ff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ff00ff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form .btn {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #660066;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
