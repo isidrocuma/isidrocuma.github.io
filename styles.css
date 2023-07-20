@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background-color: #121c3d;
     color: #fff;
     font-family: 'Courier New', monospace;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #ff00ff;
+    background-color: #0e1740;
     text-align: center;
     padding: 20px;
 }
@@ -15,6 +15,7 @@ header {
 header h1 {
     font-size: 36px;
     margin: 0;
+    color: #00bfff;
 }
 
 #hero {
@@ -34,7 +35,8 @@ header h1 {
 .hero-content h2 {
     font-size: 48px;
     margin: 0;
-    text-shadow: 3px 3px #ff00ff;
+    color: #00bfff;
+    text-shadow: 2px 2px #0e1740;
 }
 
 .hero-content p {
@@ -44,7 +46,7 @@ header h1 {
 
 .btn {
     display: inline-block;
-    background-color: #ff00ff;
+    background-color: #00bfff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -55,11 +57,11 @@ header h1 {
 }
 
 .btn:hover {
-    background-color: #660066;
+    background-color: #0059b3;
 }
 
 #caracteristicas {
-    background-color: #660066;
+    background-color: #0059b3;
     padding: 50px 0;
     text-align: center;
 }
@@ -68,7 +70,7 @@ header h1 {
     font-size: 36px;
     margin: 0;
     color: #fff;
-    text-shadow: 2px 2px #ff00ff;
+    text-shadow: 2px 2px #0e1740;
 }
 
 #caracteristicas ul {
@@ -82,7 +84,7 @@ header h1 {
 }
 
 #testimonios {
-    background-color: #ff00ff;
+    background-color: #0e1740;
     padding: 50px 0;
     text-align: center;
 }
@@ -91,12 +93,12 @@ header h1 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid #fff;
+    border: 2px solid #00bfff;
     border-radius: 5px;
 }
 
 #contacto {
-    background-color: #181818;
+    background-color: #121c3d;
     padding: 50px 0;
     text-align: center;
 }
@@ -104,8 +106,8 @@ header h1 {
 #contacto h2 {
     font-size: 36px;
     margin: 0;
-    color: #fff;
-    text-shadow: 2px 2px #ff00ff;
+    color: #00bfff;
+    text-shadow: 2px 2px #0e1740;
 }
 
 form {
@@ -124,7 +126,7 @@ form textarea {
     width: 100%;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid #ff00ff;
+    border: 2px solid #00bfff;
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -134,7 +136,7 @@ form .btn {
 }
 
 footer {
-    background-color: #660066;
+    background-color: #0059b3;
     text-align: center;
     padding: 20px;
     position: absolute;
